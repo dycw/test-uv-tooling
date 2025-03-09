@@ -15,11 +15,11 @@ dependencies = []
 name = "dycw-test-uv-tooling"
 readme = "README.md"
 requires-python = ">= 3.13"
-version = "0.1.1"
+version = "0.1.2"
 
 # bump-my-version
 [tool.bumpversion]
-current_version = "0.1.1"
+current_version = "0.1.2"
 
 # coverage
 [tool.coverage]
