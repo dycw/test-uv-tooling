@@ -44,6 +44,9 @@ parallel = true
 [tool.hatch.build]
 sources = ["src"]
 
+[tool.hatch.build.targets.sdist]
+packages = ["src/dycw_test_uv_tooling"]
+
 [tool.hatch.build.targets.wheel]
 packages = ["src/dycw_test_uv_tooling"]
 
