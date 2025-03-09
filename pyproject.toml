@@ -7,16 +7,12 @@ requires = ["hatchling"]
 
 # dependency groups
 [dependency-groups]
-dev = [
-  "dycw-utilities[test]",
-  "setuptools",
-]
 
 # project
 [project]
 authors = [{name = "Derek Wan", email = "d.wan@icloud.com"}]
 dependencies = []
-name = "dycw-template"
+name = "dycw-test-uv-tooling"
 readme = "README.md"
 requires-python = ">= 3.13"
 version = "0.1.0"
@@ -49,7 +45,7 @@ parallel = true
 sources = ["src"]
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/dycw_template"]
+packages = ["src/dycw_test_uv_tooling"]
 
 # nitpick
 [tool.nitpick]
