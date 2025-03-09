@@ -15,12 +15,12 @@ dependencies = []
 name = "dycw-test-uv-tooling"
 readme = "README.md"
 requires-python = ">= 3.13"
-version = "0.1.4"
+version = "0.1.5"
 
 # bump-my-version
 [tool.bumpversion]
 allow_dirty = true
-current_version = "0.1.4"
+current_version = "0.1.5"
 
 [[tool.bumpversion.files]]
 filename = "src/test_uv_tooling/__init__.py"
@@ -46,9 +46,6 @@ parallel = true
 
 # hatch
 [tool.hatch]
-
-[tool.hatch.build]
-sources = ["src"]
 
 [tool.hatch.build.targets.sdist]
 only-include = ["src", "tests"]
